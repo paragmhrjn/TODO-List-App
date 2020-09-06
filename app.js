@@ -65,33 +65,6 @@ function delCheck(e) {
     }
 }
 
-
-// function filterTodo(e) {
-//     const todos = todoList.ChildNodes;
-//     todos.forEach((todo) => {
-//         if(todo.classList!== undefined){
-//             switch (e.target.value) {
-//                 case "all":
-//                     alert(todo.style.display);  // Outputs: flex
-//                     break;
-                
-//                 case "completed":
-//                     if(todo.classlist.contains("completed")){
-//                         alert(todo.style.display);  // Outputs: flex
-//                     }else{
-//                         alert(todo.style.display);  // Outputs: none
-//                     }
-//                     break;
-//                     default:
-//                         break;
-                
-                
-//             }
-//         }
-//      return;
-//     });
-// }
-
 // function to filter todo list
 function filterTodo(e) {
     const todos = document.querySelectorAll('.todo');
